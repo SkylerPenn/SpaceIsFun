@@ -10,7 +10,7 @@ using System.Runtime.Serialization;
 
 namespace SpaceIsFun
 {
-    class Crew : Entity
+    [Serializable] class Crew : Entity, ISerializable
     {
         #region fields
 
