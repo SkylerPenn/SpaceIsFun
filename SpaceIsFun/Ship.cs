@@ -13,7 +13,7 @@ namespace SpaceIsFun
     /// <summary>
     /// Its a ship!
     /// </summary>
-    class Ship : Entity
+    [Serializable] class Ship : Entity, ISerializable
     {
         #region fields
         /// <summary>
