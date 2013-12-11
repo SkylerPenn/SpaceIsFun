@@ -186,7 +186,7 @@ namespace SpaceIsFun
 
         }
         //Constructor used when deserializing object
-        public Crew(SerializationInfo si, StreamingContext sc)
+        public Crew(SerializationInfo si, StreamingContext sc) : base()
         {
             position = (Vector2) si.GetValue("position", typeof(Vector2));
             maxHP = si.GetInt32("maxHP");
